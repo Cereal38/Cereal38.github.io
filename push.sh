@@ -1,13 +1,13 @@
 #!/bin/bash
 
 git add -A
-echo Add done
+echo \nAdd done\n
 
 git commit -m "$1"
-echo Commit done
+echo Commit done\n
 
 git push origin main
-echo Push done
+echo Push done\n
 
 echo
 echo All done !
