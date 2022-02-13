@@ -3,7 +3,7 @@
 git add -A
 echo Add done
 
-git commit -m "Auto commit"
+git commit -m "$1"
 echo Commit done
 
 git push origin main
