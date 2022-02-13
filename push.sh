@@ -4,9 +4,9 @@ git add -A
 echo -e "\nAdd done\n"
 
 git commit -m "$1"
-echo -e "Commit done\n"
+echo -e "\nCommit done\n"
 
 git push origin main
-echo -e "Push done \n"
+echo -e "\nPush done \n"
 
 echo "All done !"
