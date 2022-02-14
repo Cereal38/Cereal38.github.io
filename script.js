@@ -1,5 +1,3 @@
 
-let x = 3;
-let y = 4;
-
-const message = 3+4;
+const temp = document.getElementsByTagName('h1');
+const message = temp;
