@@ -118,8 +118,14 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/index.js":[function(require,module,exports) {
-console.log(document.getElementsByTagName('h1'));
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+// SECTION 2
+var robot_text = "Une Intelligence Artificielle qui analyse et trade sur le marché des crypto-monnaies 24h/24h !";
+document.getElementById("robot__text").textContent = robot_text;
+var money_text = "Un moyen pour faire fructifier votre argent à hauteur d’environ 10% par mois !";
+document.getElementById("money__text").textContent = money_text;
+var plus_text = "Un projet aux nombreux objectifs - Cliquez ici pour en savoir plus : <a href='#main-block__section-3'>Nos objetifs</a>";
+document.getElementById("plus__text").innerHTML = plus_text;
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -147,7 +153,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53888" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54023" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -323,5 +329,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
+},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
 //# sourceMappingURL=/js.00a46daa.js.map

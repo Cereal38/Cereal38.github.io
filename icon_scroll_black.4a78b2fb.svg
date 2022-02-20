@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.336456"
+   height="49.59795"
+   viewBox="0 0 86.336456 49.59795"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="icon_scroll_black.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#bcbcbc"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.6291667"
+     inkscape:cx="23.283582"
+     inkscape:cy="4.1331802"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.380265,-53.593678)">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.906165"
+       id="rect2755"
+       width="61.049095"
+       height="9.0929966"
+       x="58.268188"
+       y="17.524717"
+       transform="rotate(45)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.906165"
+       id="rect2755-5"
+       width="61.049095"
+       height="9.0929966"
+       x="-34.431381"
+       y="-119.31728"
+       transform="rotate(135)" />
+  </g>
+</svg>
