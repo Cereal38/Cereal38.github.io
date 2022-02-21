@@ -218,7 +218,7 @@ body {
 			width: 100px;
 		}
 
-	#section-2__plus {
+	#section-2__association {
 		grid-area: 3 / 14 / 13 / 20;
 
 		display: flex;
@@ -229,11 +229,11 @@ body {
 		border-top: solid 1px black;
 	}
 
-		#section-2__plus img {
-			margin-top: 32.5px;
-			margin-bottom: 32.5px;
-			height: 75px;
-			width: 75px;
+		#section-2__association img {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			height: 100px;
+			width: 100px;
 		}
 
 		/* Commun aux paragraphes des 3 blocs text+image */
@@ -259,16 +259,6 @@ body {
 				border-right: solid 1px black;
 				border-left: solid 1px black;
 			}
-
-			#plus__text a {
-				text-decoration: none;
-				color: black;
-				font-weight: bold;
-			}
-
-				#plus__text a:hover {
-					color: #555555;
-				}	
 
 	#section-2__join-us {
 		grid-area: 11 / 1 / 20/ 21 ;
