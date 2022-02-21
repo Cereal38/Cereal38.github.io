@@ -8,24 +8,24 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   sodipodi:docname="logo_profil.svg"
+   sodipodi:docname="icon_profil_black.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="2.7354167"
-     inkscape:cx="57.21249"
-     inkscape:cy="66.534653"
+     inkscape:zoom="5.1324167"
+     inkscape:cx="42.377697"
+     inkscape:cy="73.454675"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -33,57 +33,21 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2">
-    <linearGradient
-       id="linearGradient3595"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3593" />
-    </linearGradient>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath8853">
-      <circle
-         style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle8855"
-         cx="60"
-         cy="60"
-         r="60" />
-    </clipPath>
-  </defs>
+     id="defs2" />
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path177"
-       cx="60.000004"
-       cy="60"
-       rx="57.600002"
-       ry="57.599998" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.633093,98.458676 c 29.110625,21.421224 59.265155,30.621874 98.733127,0 -31.986858,-62.480671 -64.799884,-69.107116 -98.733127,0 z"
+       id="path1184"
+       sodipodi:nodetypes="ccc" />
     <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6061"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99812"
+       id="path1653"
        cx="60"
-       cy="100"
-       r="43.45097"
-       clip-path="url(#clipPath8853)" />
-    <ellipse
-       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path177-5"
-       cx="60.100002"
-       cy="60.099998"
-       rx="57.600002"
-       ry="57.599998" />
-    <ellipse
-       style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:3.11382;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path10467"
-       cx="60.000004"
-       cy="36"
-       rx="18.443092"
-       ry="18.44309" />
+       cy="22.90873"
+       r="18.5" />
   </g>
 </svg>

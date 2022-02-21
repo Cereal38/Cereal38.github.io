@@ -40,6 +40,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 	#section-1__header {
@@ -90,7 +91,7 @@ body {
 		#header__profil-link {
 			grid-area: 1 / 14 / 2 / 15;
 
-			width: 50px;
+			width: 40px;
 			margin: auto;
 			margin-right: 25%;
 		}
