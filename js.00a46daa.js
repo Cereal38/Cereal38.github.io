@@ -124,7 +124,15 @@ document.getElementById("robot__text").textContent = robot_text;
 var money_text = "Un moyen pour faire fructifier votre argent à hauteur d’environ 10% par mois !";
 document.getElementById("money__text").textContent = money_text;
 var plus_text = "Un projet qui soutient <À définir> !";
-document.getElementById("plus__text").innerHTML = plus_text; // AUTO SCROLL
+document.getElementById("plus__text").innerHTML = plus_text; // True si l'utilisateur est sur mobile
+
+var on_phone = typeof window.orientation !== "undefined" || navigator.userAgent.indexOf('IEMobile') !== -1;
+
+if (on_phone) {
+  document.getElementById("money__text").textContent = "Letgo";
+}
+
+; // AUTO SCROLL
 // Récupération des éléments intéressants dans des variables
 
 var section_1 = document.getElementById("main-block__section-1");
@@ -213,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64103" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64689" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
