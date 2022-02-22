@@ -118,8 +118,74 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/index.js":[function(require,module,exports) {
-console.log(document.getElementsByTagName('h1'));
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+// SECTION 2
+var robot_text = "Une Intelligence Artificielle qui analyse et trade sur le marché des crypto-monnaies 24h/24h !";
+document.getElementById("robot__text").textContent = robot_text;
+var money_text = "Un moyen pour faire fructifier votre argent à hauteur d’environ 10% par mois !";
+document.getElementById("money__text").textContent = money_text;
+var plus_text = "Un projet qui soutient <À définir> !";
+document.getElementById("plus__text").innerHTML = plus_text; // AUTO SCROLL
+// Récupération des éléments intéressants dans des variables
+
+var section_1 = document.getElementById("main-block__section-1");
+var section_2 = document.getElementById("main-block__section-2");
+var section_3 = document.getElementById("main-block__section-3");
+var can_scroll = true;
+window.addEventListener('scroll', function () {
+  // Récupère la position en Y des éléments
+  var section_1_y = section_1.getBoundingClientRect()["y"];
+  var section_2_y = section_2.getBoundingClientRect()["y"];
+  var section_3_y = section_3.getBoundingClientRect()["y"]; // Position de la fenêtre
+
+  var scroll_y = window.scrollY;
+
+  if (can_scroll) {
+    // Scroll down sur première page
+    // S'active si fenêtre sur l'intervalle -5% à -30% du bloc section_1
+    if (section_1_y < -(section_2_y - section_1_y) * 0.05 && section_1_y > -(section_2_y - section_1_y) * 0.3) {
+      can_scroll = false;
+      section_2.scrollIntoView();
+      setTimeout(function () {
+        // Réactive la possibilité de scroll après 500ms
+        can_scroll = true;
+      }, 500);
+    } // Scroll up sur deuxième page
+
+
+    if (section_2_y > (section_2_y - section_1_y) * 0.05 && section_2_y < (section_2_y - section_1_y) * 0.3) {
+      can_scroll = false;
+      section_1.scrollIntoView();
+      setTimeout(function () {
+        can_scroll = true;
+      }, 500);
+    }
+
+    ; // Scroll down sur deuxième page
+
+    if (section_2_y < -(section_3_y - section_2_y) * 0.05 && section_2_y > -(section_3_y - section_2_y) * 0.3) {
+      can_scroll = false;
+      section_3.scrollIntoView();
+      setTimeout(function () {
+        can_scroll = true;
+      }, 500);
+    }
+
+    ; // Scroll up sur troisième page
+
+    if (section_3_y > (section_3_y - section_2_y) * 0.05 && section_3_y < (section_3_y - section_2_y) * 0.3) {
+      can_scroll = false;
+      section_2.scrollIntoView();
+      setTimeout(function () {
+        can_scroll = true;
+      }, 500);
+    }
+
+    ;
+  }
+
+  ;
+}); // END - AUTO SCROLL
+},{}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -147,7 +213,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53888" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64103" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -323,5 +389,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
+},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
 //# sourceMappingURL=/js.00a46daa.js.map
