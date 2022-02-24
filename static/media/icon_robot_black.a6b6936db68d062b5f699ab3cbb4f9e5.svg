@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 110 104.22" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="b">
+<rect x="-.27554" y="-.27554" width="120" height="120" fill="#59e7d0" opacity=".39744" stroke-width="0"/>
+</clipPath>
+<clipPath id="a">
+<rect x="-.27554" y="-.27554" width="120" height="120" fill="#59e7d0" opacity=".39744" stroke-width="0"/>
+</clipPath>
+<clipPath id="c">
+<rect x="50" y="70" width="20" height="10" d="M 50,70 H 70 V 80 H 50 Z" display="none" fill="#ff3" stroke-width="0"/>
+<path class="powerclip" d="m45 65h30v30h-30zm5 5v10h20v-10z" fill="#ff3" stroke-width="0"/>
+</clipPath>
+</defs>
+<g transform="translate(-5 -15.5)">
+<rect x="22.506" y="41.896" width="74.988" height="54.988" rx="10.049" fill="#fff" fill-opacity=".0093985" stroke="#000" stroke-linejoin="round" stroke-width="5.0117"/>
+<rect x="57.5" y="30" width="5" height="10" stroke-width="0"/>
+<ellipse cx="60" cy="23" rx="6.0156" ry="6.0156" fill="#fff" fill-opacity=".0093985" stroke="#000" stroke-width="2.9687"/>
+<rect x="7.3482" y="56.348" width="15.304" height="25.304" rx="4.7893" fill="#fff" fill-opacity=".0093985" stroke="#000" stroke-width="4.6964"/>
+<rect x="97.348" y="56.348" width="15.304" height="25.304" rx="4.7893" fill="#fff" fill-opacity=".0093985" stroke="#000" stroke-width="4.6964"/>
+<circle cx="45" cy="62.5" r="5" stroke-width="0"/>
+<circle cx="75" cy="62.5" r="5" stroke-width="0"/>
+<path d="m70 80a10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10 10 10 0 0 1 10 10z" clip-path="url(#c)" stroke-width="0"/>
+<ellipse cx="60" cy="132.43" rx="27.502" ry="27.502" clip-path="url(#a)" fill="#fff" fill-opacity=".0093985" stroke="#000" stroke-width="4.9965"/>
+<rect x="35" y="116.32" width="50" height="5" clip-path="url(#b)" stroke-width="0"/>
+</g>
+</svg>
